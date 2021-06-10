@@ -1,0 +1,491 @@
+.filter-top {
+    position: absolute;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 300;
+}
+
+.filter-top > div {
+    background:white;
+    clip-path: circle(38.3% at 50% 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer !important;
+}
+
+.filter-top > div .drawer-btn {
+    padding: 4px 40px 50px 40px;
+    cursor: pointer;
+}
+
+.MoreAboutPokemon .top {
+    width: auto;
+    min-height:30vh;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.MoreAboutPokemon .top .hder {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    z-index: 300;
+    padding-top: 40px;
+}
+
+.MoreAboutPokemon .top .hder *{
+    color: white;
+}
+
+.MoreAboutPokemon .top .hder > h1 {
+    text-transform: uppercase;
+}
+
+.MoreAboutPokemon .top .hder > h1:nth-child(3) {
+    opacity: 50%;
+    margin-top: -45px;
+}
+
+
+.MoreAboutPokemon .top .hder > h1:nth-child(2) {
+    padding-left: 80px;
+} 
+
+.MoreAboutPokemon .top .hder > img {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    z-index:100;
+    position: relative;
+    margin-top: -45px;
+}
+
+
+.MoreAboutPokemon .list-type {
+    display: flex;
+    flex-direction: row;
+    margin-top: -16px;
+    margin-left: -5px;
+    margin-top: auto;
+    position: relative;
+    z-index: 200;
+}
+
+.MoreAboutPokemon .list-type > * {
+    -webkit-box-shadow: 0px 1px 1px 1px rgba(0,0,0,0.15);
+-moz-box-shadow: 0px 1px 1px 1px rgba(0,0,0,0.15);
+box-shadow: 0px 1px 1px 1px rgba(0,0,0,0.15);
+    font-size: 16px;
+    margin-left: 5px;
+    margin-right: 5px;
+    background: rgba(255, 255, 255, 0.2);
+    color: white;
+    font-weight: 600;
+    padding: 2px 10px 4px 10px;
+    border-radius: 50px;
+}
+
+.MoreAboutPokemon .pokemon-div {
+    height:20vh;
+    display: flex;
+    width: 100vw;
+    text-align: center;
+    position: relative;
+    z-index: 200;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: -15px;
+
+}
+
+.change-image {
+    min-width: 220px;
+}
+
+.MoreAboutPokemon .pokemon {
+    height: 100%;
+    position: relative;
+    transition: 0.5s;
+}
+
+.MoreAboutPokemon .pixel {
+    transition: 0.5s;
+    height: 20vh;
+}
+
+.change-image svg {
+    color: white;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.change-image > div {
+    display: flex;
+    padding-top: 20px;
+    align-items: center;
+}
+
+.change-image > div > p {
+    opacity: 50%;
+    font-size: 20px;
+}
+
+.change-image:nth-child(1) > div > p {
+    padding-right: 20px;
+}
+
+.change-image:nth-child(3) > div > p {
+    padding-left: 20px;
+}
+
+.change-image:nth-child(1) > div {
+    margin-left: -35px;
+}
+
+.change-image:nth-child(1) > div {
+    justify-content: flex-end;
+    padding-right: 120px;
+}
+
+.change-image:nth-child(3) > div {
+    padding-left: 100px;
+}
+
+.MoreAboutPokemon .bot {
+    background: white;
+    height: 100%;
+    border-radius: 20px 20px 0 0;
+    padding: 10px 0;
+    position: relative;
+    z-index: 500;
+}
+
+.MoreAboutPokemon .bot .nav-more {
+    width: 100%;
+    padding-top: 25px;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid #D7D7DB;
+}
+
+.MoreAboutPokemon .bot .nav-more li {
+    padding-left: 15px;
+    padding-right: 15px;
+    text-transform: uppercase;
+    font-weight: 600;
+    cursor: pointer;
+    color: #D7D7DB;
+    font-size: 16px;
+}
+
+.MoreAboutPokemon .bot .nav-more li.active {
+    color: #3A3F51;
+    padding-bottom: 25px;
+    border-bottom: 2px solid #EE3551;
+}
+
+
+.About .info-about {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 30px;
+}
+
+.About .info-about label {
+    width: calc(50% - 40px);
+    font-weight: 500;
+    padding-top: 15px;
+    font-size: 20px;
+    padding-bottom: 15px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.About .info-about label span {
+    font-weight: 400;
+    color: #3A3F51;
+}
+
+.About .info-about .icon {
+    padding-right: 10px;
+}
+
+.MoreAboutPokemon .div-pokeball-img {
+    width: 100vw;
+    position: absolute;
+    text-align: center;
+}
+
+.MoreAboutPokemon .pokeball-img {
+    height: 300px;
+    opacity: 30%;
+    z-index: 1;
+    margin-left: -40px;
+    margin-top: 40px;
+}
+
+
+.BaseStats .info-stats {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 50px;
+}
+
+.BaseStats .info-stats label {
+    width: calc(50% - 100px);
+    font-weight: 500;
+    padding-top: 30px;
+    font-size: 20px;
+    padding-bottom: 30px;
+    padding-right: 40px;
+    padding-left: 40px;
+}
+
+.BaseStats .info-stats label span {
+    font-weight: 400;
+    color: #3A3F51;
+}
+
+.BaseStats .info-stats .progressbar {
+    margin-top:10px;
+}
+
+.BaseStats .info-stats .icon {
+    padding-right: 10px;
+}
+
+.Evolution {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+}
+
+.Evolution .pokemon-evolution .icon {
+    font-size: 50px !important;
+    padding: 0 50px;
+}
+
+.Evolution .pokemon-evolution img:nth-child(1) {
+    height: 150px;
+}
+
+
+.Evolution .pokemon-evolution {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.Evolution .pokemon-evolution > div > div:not(.arrow) {
+    cursor: pointer;
+}
+
+.d-flex {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.Evolution .pokemon-evolution-container > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.Moves {
+    padding: 50px;
+}
+
+.Moves .info-moves {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.Moves .info-moves > div {
+    width: 40vw;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.Moves .info-moves > div .card-move {
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.25);
+    width: 100%;
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+
+.more-info-move {
+    -webkit-transition: width .5s ease;
+    transition: width .5s ease;
+}
+
+.Moves .info-moves > div .card-move > div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    pointer-events: none !important;
+
+}
+
+.Moves .info-moves > div label {
+    font-weight: 500;
+    font-size: 18px;
+    padding-left: 10px;
+    pointer-events: none !important;
+}
+
+.Moves .list-type > p {
+    font-size: 12px;
+}
+
+.more-info-move {
+    display: flex;
+    flex-direction: column !important;
+    justify-content: flex-start !important;
+    align-items: flex-start !important;
+    padding-top: 25px;
+}
+
+.more-info-move svg {
+    min-width: 20px;
+}
+
+.more-info-move * {
+    color :white;
+}
+
+.more-info-move svg {
+    padding-right: 10px;
+}
+
+.more-info-move .value {
+    font-weight: 800;
+}
+
+.more-info-move .info-number {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+}
+
+.more-info-move .effect {
+    padding: 20px 10px 10px 10px;
+    font-weight: 600;
+    font-style: italic;
+    color: black;
+    opacity: 50%;
+}
+
+.Moves, .info-moves, .info-moves > div {
+    transition: 0.5s;
+}
+
+.Moves .div-search-move {
+    width: 100%;
+    text-align: center;
+}
+
+.Moves .div-search-move .input-search-move {
+    width: 50%;
+    margin-left: 40px;
+    margin-bottom: 30px;
+}
+
+
+.Items, .info-moves, .info-moves > div {
+    transition: 0.5s;
+}
+
+.Items .div-search-move {
+    width: 100%;
+    text-align: center;
+}
+
+.Items .div-search-move .input-search-move {
+    width: 50%;
+    margin-left: 40px;
+    margin-bottom: 30px;
+}
+
+
+.Items {
+    padding: 50px;
+}
+
+.Items .info-moves {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.Items .info-moves > div {
+    width: 200px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.Items .info-moves > div .card-move {
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.25);
+    width: 100%;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.Items .info-moves > div .card-move > div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    pointer-events: none !important;
+
+}
+
+.Items .info-moves > div label {
+    font-weight: 500;
+    font-size: 18px;
+    padding-left: 10px;
+    pointer-events: none !important;
+}
+
+.Items .list-type > p {
+    font-size: 12px;
+}
+
+.Items .more-info-move * {
+    color: black;
+}
+
+.explication-evolution {
+    width: 200px;
+    text-align: center;
+    padding: 0 60px 10px 60px;
+    opacity: 60%;
+}
